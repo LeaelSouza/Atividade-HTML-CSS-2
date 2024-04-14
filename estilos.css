@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+}
+
+.conteudo-principal{
+    flex: 1;
+}
+
+.conteudo-lateral{
+    flex: 0 0 25%;
+}
+
+body{
+    background-color: silver;
+}
+
+#titulo1{
+    text-align: center;
+}
+
+#titulo2{
+    text-align: end;
+}
+
+.cabecalho{
+    padding: 10px 15px 0px 10px;
+}
+
+.paragrafo{
+    width: 30%;
+    padding: 5px;
+    display: inline-block;
+    border: 2px solid black;
+    vertical-align: top;
+}
+
+.listas1{
+    width: 20%;
+    padding: 5px;
+    display: inline-block;
+    border: 2px solid blue;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.listas2{
+    width: 20%;
+    padding: 5px;
+    display: inline-block;
+    border: 2px dashed red;
+    vertical-align: top;
+}
+
+/* .fotos{
+    display: inline-block;
+} */
+
+.sessaoDireita{
+    display: block;
+    text-align: end;
+}
+
+.rodape{
+    display: block;
+    text-align: center;
+    border: 2px dashed green;
+}
+
+.link{
+    text-decoration: none;
+}
